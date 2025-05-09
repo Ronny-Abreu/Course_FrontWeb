@@ -20,6 +20,18 @@ Repositorio guía del curso certificado de Desarrollo Web Frontend del ITLA.
   - Aplicar estilos con CSS utilizando selectores avanzados
   - Implementar interactividad básica con JavaScript
 
+### **Módulo 2: Lógica Condicional en la Web**
+- **Temática:** 
+  - Uso de estructuras condicionales `if`, `else if`, `else` en JavaScript
+  - Manejo de formularios e inputs para la toma de decisiones
+  - Implementación de menús interactivos con `<select>` y `<option>`
+  - Aplicación de estilos CSS para mejorar la UX/UI
+- **Objetivos:**
+  - Resolver problemas prácticos usando lógica condicional
+  - Manipular el DOM mediante eventos y funciones
+  - Crear interfaces básicas para ejecución de ejercicios
+  - Fortalecer habilidades de programación con práctica interactiva
+
 ---
 
 ## 📁 Recursos del Curso
