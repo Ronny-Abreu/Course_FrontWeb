@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Página Principal</title>
+<link rel="stylesheet" href="Styles_F.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+<nav class="navbar">
+<h1>Calculadora</h1>
+<div class="nav-links">
+    <a href="#">Inicio</a>
+    <a href="#" id="contactBtn">Contactos</a>
+    <a href="Features_Calculator.html" class="btn">Calculadora</a>
+</div>
+</nav>
+
+<!-- Contactos -->
+<div class="modal-bg" id="modalContacto">
+<div class="modal-content">
+    <h3>Contacto</h3>
+    <div class="icon-links">
+    <a href="https://github.com/Ronny-Abreu?tab=overview&from=2025-05-01&to=2025-05-14" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://discord.com/users/_slimreaperr" target="_blank" title="Discord"><i class="fab fa-discord"></i></a>
+    </div>
+</div>
+</div>
+
+<section class="hero-section">
+<h2>Bienvenido a la Calculadora Web</h2>
+<p>
+¡Haz clic en "Calculadora" para comenzar!
+</p>
+</section>
+
+<section class="features-section">
+<div class="feature-card">
+    <i class="fas fa-calculator"></i>
+    <h4>Calculadora Básica</h4>
+    <p>Realiza operaciones matemáticas simples de forma rápida y sencilla.</p>
+</div>
+
+<div class="feature-card">
+    <i class="fas fa-code"></i>
+    <h4>Se aprende a programar, programando</h4>
+    <p>Descubre cómo funcionan los condicionales y la lógica en JavaScript.</p>
+</div>
+
+</section>
+
+<script>
+// Apertura del modal de Contactos
+const contactBtn = document.getElementById('contactBtn');
+const modal = document.getElementById('modalContacto');
+contactBtn.onclick = function(e) {
+    e.preventDefault();
+    modal.classList.add('active');
+};
+modal.onclick = function(e) {
+    if (e.target === modal) {
+    modal.classList.remove('active');
+    }
+};
+
+document.addEventListener('keydown', function(e) {
+    if (e.key === "Escape") modal.classList.remove('active');
+});
+</script>
+
+</body>
+</html>
