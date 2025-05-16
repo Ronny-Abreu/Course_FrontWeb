@@ -1,0 +1,58 @@
+   body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+      color: #3c3c3c;
+      text-shadow: 2px 2px 5px rgba(255, 100, 100, 0.3);
+    }
+
+    #dogImage {
+      max-width: 500px;
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+      transition: transform 0.3s ease-in-out;
+      margin-bottom: 2rem;
+    }
+
+    #dogImage:hover {
+      transform: scale(1.03);
+    }
+
+    .BotonesPeticion {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .BotonesPeticion button {
+      padding: 0.8rem 1.6rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 12px;
+      background: #f7335b;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .BotonesPeticion button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    }
